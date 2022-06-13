@@ -15,3 +15,22 @@ body {
   gap: 40px;
   color: #fff;
 }
+#time .circle {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#time div {
+  position: absolute;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+#time .ap {
+  position: relative;
+  font: 1em;
+  transform: translateX(-20px);
+}
