@@ -6,6 +6,9 @@ setInterval(() => {
   let hh = document.getElementById('hh');
   let ss = document.getElementById('ss');
   let mm = document.getElementById('mm');
+  let dotsHours = document.querySelector('.dots__hours');
+  let dotsMinutes = document.querySelector('.dots__minutes');
+  let dotsSeconds = document.querySelector('.dots__seconds');
 
   let h = new Date().getHours();
   let m = new Date().getMinutes();

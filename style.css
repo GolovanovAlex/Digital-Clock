@@ -49,6 +49,24 @@ body {
 }
 #time .ap {
   position: relative;
-  font: 1em;
+  font-size: 1em;
   transform: translateX(-20px);
+}
+.dots {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+}
+.dots::before {
+  content: '';
+  position: absolute;
+  top: -3px;
+  width: 15px;
+  height: 15px;
+  background-color: var(--clr);
+  border-radius: 50%;
+  box-shadow: 0 0 20px var(--clr);
 }
