@@ -7,10 +7,6 @@ setInterval(() => {
   let ss = document.getElementById('ss');
   let mm = document.getElementById('mm');
 
-  let hr_dot = document.querySelector('.hr_dot');
-  let dotsMinutes = document.querySelector('.dots__minutes');
-  let dotsSeconds = document.querySelector('.dots__seconds');
-
   let h = new Date().getHours();
   let m = new Date().getMinutes();
   let s = new Date().getSeconds();
@@ -33,9 +29,7 @@ setInterval(() => {
   hh.style.strokeDashoffset = 440 - (440 * h) / 12;
   mm.style.strokeDashoffset = 440 - (440 * m) / 60;
   ss.style.strokeDashoffset = 440 - (440 * s) / 60;
-
-  hr_dot.style.transform = `rotate (${h * 30}deg)`;
-  document.getElementById('myDIV').style.transform = `rotate(${h * 30}deg)`;
-
-  dotsMinutes.style.transform = `rotate(${m * 6}ged)`;
+  document.getElementById('h_dot').style.transform = `rotate(${h * 30}deg)`;
+  document.getElementById('m_dot').style.transform = `rotate(${m * 6}deg)`;
+  document.getElementById('s_dot').style.transform = `rotate(${s * 6}deg)`;
 });
