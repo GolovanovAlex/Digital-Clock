@@ -1,7 +1,4 @@
-# Digital-Clock
-Link https://codepen.io/AlexGolovanov/pen/MWQZmYN
-
-# CSS Animation Effect
+# Digital Clock
 
 ### Use Skills
 
