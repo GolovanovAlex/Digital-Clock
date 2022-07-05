@@ -13,7 +13,7 @@
 
 ## Info
 
-Создано на основе видео с Youtube канала [Online Tutorials](https://www.youtube.com/c/OnlineTutorials4Designers.  
+Создано на основе видео с Youtube канала [Online Tutorials](https://www.youtube.com/c/OnlineTutorials4Designers).  
 Для обучения и отработки работы c SVG, CSS и JavaScript.  
 Анимированные часы с изменением и подсветкой в зависимости от времени.
 
